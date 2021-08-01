@@ -1,0 +1,35 @@
+:root {
+    --cor0: #c5ebd6;
+    --cor1: #fff1ac;
+    --cor2: #83e1ad;
+    --cor3: #3ddc84;
+    --cor4: #2fa866;
+    --cor5: #1a5c37;
+    --cor6: #063d1e;
+    --cor7: #204969;
+    --cor8: #ccc;
+    --cor9: rgb(173, 22, 22);
+    --font-pdrao: arial, verdana, helvetica, sans-serif;
+    --font-destaque: 'bebas, neut, cursive';
+    --font-android: 'android', 'cursive';
+}
+
+* {
+    margin: 0;
+    padding: 10px;
+    box-sizing: border-box;
+    list-style: none;
+    background-color: var(--cor8);
+}
+ul { 
+    display: flex; /*or inline-flex*/ 
+    color: red;
+    font-size: 2rem;
+    flex-direction: row;
+   justify-content: center;
+}
+ul { 
+    flex-wrap: wrap; 
+    }
+
+
